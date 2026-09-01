@@ -23,7 +23,7 @@ int copy = n;
 int lastDig = copy % 10; // 4
 int pow = 1; 
 
-while (copy >= 0) {
+while (copy > 0) {
     copy = copy / 10; 
     pow = pow * 10; 
 }
